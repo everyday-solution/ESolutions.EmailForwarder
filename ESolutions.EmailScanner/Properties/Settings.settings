@@ -1,0 +1,54 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ESolutions.EmailScanner.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="FprotExe" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">fpcmd.exe</Value>
+    </Setting>
+    <Setting Name="MailFileExtension" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">.eml</Value>
+    </Setting>
+    <Setting Name="FprotInfectionIndicator" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Infected: </Value>
+    </Setting>
+    <Setting Name="SpamdSpamIndicator" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Spam: True</Value>
+    </Setting>
+    <Setting Name="SpamdCommand" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">CHECK SPAMC/1.0</Value>
+    </Setting>
+    <Setting Name="SpamdIpAddress" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">127.0.0.1</Value>
+    </Setting>
+    <Setting Name="SpamdPort" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">783</Value>
+    </Setting>
+    <Setting Name="SubjectKeyword" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Subject: </Value>
+    </Setting>
+    <Setting Name="SubjectSpamExtensionKeyword" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">*****SPAM*****</Value>
+    </Setting>
+    <Setting Name="ForwardingList" Type="System.Collections.Specialized.StringCollection" Scope="Application">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;everyday-solutions.de;192.168.201.7;nemesis&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="MailFilePrefix" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">P3_</Value>
+    </Setting>
+    <Setting Name="FprotFolder" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">c:\mails\f-prot\</Value>
+    </Setting>
+    <Setting Name="FprotArguments" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">-dumb -server -packed -archive</Value>
+    </Setting>
+    <Setting Name="MailFolder" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">c:\mails\mailboxes\</Value>
+    </Setting>
+    <Setting Name="SentMailFilePrefix" Type="System.String" Scope="User">
+      <Value Profile="(Default)">S_</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
